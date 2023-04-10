@@ -27,7 +27,6 @@ npm i @mrakesh0608/react-native-loading-dots
 import 'react-native-gesture-handler';
 
 import { View, Text } from 'react-native';
-
 import { LoadingDots } from '@mrakesh0608/react-native-loading-dots';
 
 const list = ["elastic", "flashing", "typing", "ping", 'pulse']
@@ -35,7 +34,12 @@ const list = ["elastic", "flashing", "typing", "ping", 'pulse']
 export default function App() {
     return (
         <View style={{ justifyContent: 'center', flex: 1 }}>
-            <View style={{ alignItems: 'center', justifyContent: 'center', flexDirection: 'row', flexWrap: 'wrap' }}>
+            <View style={{
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexDirection: 'row',
+                flexWrap: 'wrap'
+            }}>
 
                 {list.map((item, index) =>
                     <View key={index}>
