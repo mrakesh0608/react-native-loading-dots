@@ -23,42 +23,35 @@
 npm i @mrakesh0608/react-native-loading-dots
 ```
 ## Usage
+[Try on Expo Snack](https://snack.expo.dev/@mrakesh0608/react-native-loading-dots-)
 ```
-import 'react-native-gesture-handler';
-
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import { LoadingDots } from '@mrakesh0608/react-native-loading-dots';
 
-const list = ["elastic", "flashing", "typing", "ping", 'pulse']
+const list = ['elastic', 'flashing', 'typing', 'ping', 'pulse'];
 
 export default function App() {
-    return (
-        <View style={{ justifyContent: 'center', flex: 1 }}>
-            <View style={{
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexDirection: 'row',
-                flexWrap: 'wrap'
-            }}>
-
-                {list.map((item, index) =>
-                    <View key={index}>
-                        <LoadingDots
-                            animation={item}
-                            containerStyle={{
-                                marginHorizontal: 80,
-                                marginVertical: 5,
-                                backgroundColor: 'lightgray',
-                                padding: 18,
-                                borderRadius: 10,
-                            }}
-                        />
-                        <Text style={{ textAlign: 'center' }}>{item}</Text>
-                    </View>
-                )}
-            </View>
+  return (
+    <ScrollView style={{ justifyContent: 'center', alignItems: 'center' }}>
+      {list.map((item, index) => (
+        <View
+          key={index}
+          style={{
+            marginVertical: 12,
+          }}>
+          <LoadingDots
+            animation={item}
+            containerStyle={{
+              backgroundColor: 'lightgray',
+              padding: 18, 
+              borderRadius: 10,
+            }}
+          />
+          <Text style={{ textAlign: 'center' }}>{item}</Text>
         </View>
-    );
+      ))}
+    </ScrollView>
+  );
 }
 ```
 
