@@ -1,5 +1,7 @@
 <h1 align="center">Welcome to @mrakesh0608/react-native-loading-dots 👋</h1>
+
 <p align='center'>A Loading Dots Component for React Native</p>
+
 <p align='center'>
   <a href="https://www.npmjs.com/package/@mrakesh0608/react-native-loading-dots" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@mrakesh0608/react-native-loading-dots.svg">
@@ -23,7 +25,17 @@
 npm i @mrakesh0608/react-native-loading-dots
 ```
 ## Usage
-[Try on Expo Snack](https://snack.expo.dev/@mrakesh0608/react-native-loading-dots-)
+<div align='right'>
+  <a href="https://snack.expo.dev/@mrakesh0608/react-native-loading-dots-" target="_blank">
+    <span>Try this example on Expo Snack</span>
+    <svg width="14px" height="14px" viewBox="0 0 16 16" style="vertical-align: -1px" stroke="none" stroke-width="1" fill="none">
+      <polyline stroke="currentColor" points="8.5 0.5 15.5 0.5 15.5 7.5" />
+      <path d="M8,8 L15.0710678,0.928932188" stroke="currentColor" />
+      <polyline stroke="currentColor" points="9.06944444 3.5 1.5 3.5 1.5 14.5 12.5 14.5 12.5 6.93055556" />
+    </svg>
+  </a>
+</div>
+
 ```
 import { View, Text, ScrollView } from 'react-native';
 import { LoadingDots } from '@mrakesh0608/react-native-loading-dots';
