@@ -38,7 +38,7 @@ export function Container() {
             nodes.map((node, index) =>
                 animationStyle({
                     animation,
-                    delay: index * (delay ? delay : 260),
+                    delay: index * (delay ? delay : 280),
                     node,
                     size
                 })

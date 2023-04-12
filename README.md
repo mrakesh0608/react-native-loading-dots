@@ -40,7 +40,7 @@ npm i @mrakesh0608/react-native-loading-dots
 import { View, Text, ScrollView } from 'react-native';
 import { LoadingDots } from '@mrakesh0608/react-native-loading-dots';
 
-const list = ['elastic', 'flashing', 'typing', 'ping', 'pulse'];
+const list = ['elastic', 'flashing', 'pulse', 'ping', 'typing'];
 
 export default function App() {
   return (
@@ -66,6 +66,20 @@ export default function App() {
   );
 }
 ```
+
+## Styling Options
+
+A list of available props to pass into the `<LoadingDots />` component:
+
+| Props          | Type   | Default | Units | Description                                                                         |
+| -------------- | ------ | ------- | ----- | ----------------------------------------------------------------------------------- |
+| animation      | String | 'pulse' |   -   | Animation style :  `elastic`, `flashing`, `ping`, `pulse`, `typing`                 |
+| color          | String | 'black' |   -   | Color of dots                                                                       |
+| containerStyle | Style  |    -    |   -   | Container Style for Loading Dots top level component                                |
+| dots           | Number |    3    |   -   | Number of dots to be displayed                                                      |
+| delay          | Number |   280   |  ms   | Delay between the two dots                                                          |
+| size           | Number |   10    |  px   | Size of dots                                                                        |
+| spacing        | Number |    2    |  px   | Space between dots                                                                  |
 
 ## Author
 <div style="display:flex;align-items: center;">

@@ -10,7 +10,7 @@ export function LoadingDots({
     color = "black",
     size = 10,
     spacing = 2,
-    delay = 260,
+    delay = 280,
     containerStyle = {}
 }: LoadingDotsProps) {
     return (
