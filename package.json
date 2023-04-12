@@ -21,8 +21,8 @@
   ],
   "author": "Merugu Rakesh",
   "license": "MIT",
-  "main": "src/index.ts",
-  "module": "src/index.ts",
+  "main": "src/index.tsx",
+  "module": "src/index.tsx",
   "files": [
     "src",
     "dist"

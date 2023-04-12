@@ -28,11 +28,7 @@ npm i @mrakesh0608/react-native-loading-dots
 <div align='right'>
   <a href="https://snack.expo.dev/@mrakesh0608/react-native-loading-dots-" target="_blank">
     <span>Try this example on Expo Snack</span>
-    <svg width="14px" height="14px" viewBox="0 0 16 16" style="vertical-align: -1px" stroke="none" stroke-width="1" fill="none">
-      <polyline stroke="currentColor" points="8.5 0.5 15.5 0.5 15.5 7.5" />
-      <path d="M8,8 L15.0710678,0.928932188" stroke="currentColor" />
-      <polyline stroke="currentColor" points="9.06944444 3.5 1.5 3.5 1.5 14.5 12.5 14.5 12.5 6.93055556" />
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" height="12" viewBox="0 96 960 960" width="12" fill="currentColor" ><path d="M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h279v60H180v600h600V597h60v279q0 24-18 42t-42 18H180Zm202-219-42-43 398-398H519v-60h321v321h-60V319L382 717Z"/></svg>
   </a>
 </div>
 
