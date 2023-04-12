@@ -1,8 +1,8 @@
 import React from "react";
 
-import { LoadingDotContextProvider } from "./components/context";
-import { Container } from "./components/Container";
-import { LoadingDotsProps } from "./types";
+import { LoadingDotContextProvider } from "./context";
+import { Container } from "./Container";
+import { LoadingDotsProps } from "../types";
 
 export function LoadingDots({
     animation = "pulse",

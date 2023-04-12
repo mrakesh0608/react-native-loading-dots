@@ -1,6 +1,6 @@
 {
   "name": "@mrakesh0608/react-native-loading-dots",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "A Loading Dots Component for React Native",
   "repository": {
     "type": "git",
@@ -10,6 +10,8 @@
   "bugs": {
     "url": "https://github.com/mrakesh0608/react-native-loading-dots/issues"
   },
+  "author": "Merugu Rakesh",
+  "license": "MIT",
   "keywords": [
     "rn",
     "react",
@@ -19,19 +21,8 @@
     "loading-dots",
     "react-native-loading-dots"
   ],
-  "author": "Merugu Rakesh",
-  "license": "MIT",
-  "main": "src/index.tsx",
-  "module": "src/index.tsx",
-  "files": [
-    "src",
-    "dist"
-  ],
-  "scripts": {
-    "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
-  },
+  "main": "src/index.ts",
+  "module": "src/index.ts",
   "peerDependencies": {
     "@types/react": ">=18.0.0",
     "react": ">=18.0.0",
